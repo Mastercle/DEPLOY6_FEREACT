@@ -6,7 +6,7 @@ describe('Heading', () => {
             .invoke('text')
             .should("equal", "My Awesome Web Application")
         
-        cy.screenshot()
+        cy.screenshot(capture : 'full-page')
     });
 
 });
